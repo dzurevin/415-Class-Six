@@ -1,9 +1,16 @@
 {
     "name": "415-5-demo",
     "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx @11ty/eleventy --serve"
+    },
+    "keywords": [],
+    "author": "",
+    "lisence": "ISC",
     "devDependencies": {
-        "grunt": "^1.6.1",
-        "grunt-contrib-sass": "^2.0.0",
-        "grunt-contrib-watch": "^1.1.0"
+        "@11ty/eleventy": "^2.0.1"
     }
 }

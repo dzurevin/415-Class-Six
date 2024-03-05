@@ -1,9 +1,10 @@
 ---
 title: Home Page
 layout: "page.njk"
+hasjs: 1
 ---
 
-#This is my site title
+# This is my site title
 
 This is a page that I made with eleventy
 
@@ -17,3 +18,4 @@ This is a page that I made with eleventy
 ## Cons 
 - weirdly complicated?
 - too many features?
+- dog
