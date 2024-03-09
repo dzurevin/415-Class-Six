@@ -1,4 +1,21 @@
 body {
      margin: 0;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 4rem;
+}
+
+.zelda-Div img {
+     width: 30%;
+     height: 10%;   
+     padding-top: 2rem;
+}
+.mario-Div img {
+     width: 30%;
+     height: 10%;
+     padding-top: 2rem;
+}
+.splatoon-Div img {
+     width: 30%;
+     height: 10%;
+     padding-top: 2rem;
 }

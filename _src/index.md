@@ -4,9 +4,9 @@ layout: "page.njk"
 hasjs: 1
 ---
 
-# This is my site title
+# GameCritic
 
-This is a page that I made with eleventy
+## Video Game Reviews
 
 ## Pros!
 
@@ -19,3 +19,15 @@ This is a page that I made with eleventy
 - weirdly complicated?
 - too many features?
 - dog
+
+<div class="zelda-Div">
+     <img src="Images/zelda.jpg" alt="zelda image">
+</div>
+
+<div class="mario-Div">
+     <img src="Images/mario.jpg" alt="mario image">
+</div>
+
+<div class="splatoon-Div">
+     <img src="Images/splatoon.jpg" alt="splatoon image">
+</div>
