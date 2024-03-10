@@ -19,3 +19,197 @@ body {
      height: 10%;
      padding-top: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div1 {
+     display: flex;
+     
+     justify-content: space-evenly;
+     padding: 4vw 0;
+}
+
+.tdot, .bush, .evening {
+     width: 28%;
+     object-fit: cover;
+}
+body {
+     font-family: 'Fredoka One', cursive;
+     background-color: #aaa;
+
+}
+.header {
+     background-color: black;
+     color: white;
+     display: flex;
+     align-items: center;
+     padding: 0 15vw;
+}
+.site-title{
+     margin: 0;
+}
+.nav {
+     margin-left: auto;
+}
+.menu {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+}
+.menu-link {
+     color :#dddddd;
+     text-decoration: none;
+     padding: 1em;
+     display: block;
+     transition: background-color 300ms;
+
+     /*forces text to stay on a single line*/
+     white-space: nowrap;
+}
+.menu-link:hover {
+     background-color: rgb(0, 174, 255);
+}
+.sub-menu {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     position: absolute;
+     background-color: #222222;
+     display: none;
+}
+.has-submenu {
+     position: relative;
+}
+.has-submenu:hover .sub-menu {
+     display: block;
+}
+
+.caret {
+     transform: translateY(6px) translateX(6px);
+     display: inline-block;
+}
+.menu-toggle {
+     display: none;
+     padding: 0.6em 1em;
+     margin: 5px 0;
+     color: #dddddd;
+     text-decoration: none;
+     border: 1px solid #999999;
+     border-radius: 3px;
+}
+
+
+
+.main {
+     position: relative;
+}
+.main-content {
+     padding: 6vw 10vw;
+}
+/*Drawer Menu*/
+
+.drawer {
+     background-color: rgb(47, 175, 113);
+     /*background-color: #879043;*/
+     padding: 5vw 8vw 5vw 5vw;
+     color: white;
+     position: absolute;
+     top: 5vw;
+     transform: translateX(-78%);
+     transition: all 300ms;
+}
+.drawer.drawer-open {
+     transform: translateX(0);
+}
+.side-menu {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+.side-menu-item {
+     margin-bottom: 0.5em;
+}
+.side-menu a{
+     text-decoration: none;
+     color: white;
+     transition: all 150ms;
+}
+.side-menu a:hover {
+     text-decoration: underline;
+}
+.drawer-toggle {
+     position: absolute;
+     right: 2vw;
+     top: 2vw;
+     transform: rotate(45deg);
+     transition: all 300ms;
+}
+.drawer.drawer-open .drawer-toggle {
+     transform: all 300ms;
+}
+.drawer h2 {
+     font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+     .header {
+          padding: 0 10vw;
+     }
+}
+@media screen and (max-width: 820px) {
+     .header {
+          padding: 0 4vw;
+     }
+     .menu-toggle {
+          display: block;
+     }
+     .menu {
+          position:absolute;
+          display: block;
+          background-color: #222222;
+          left: 0;
+          width: 100%;
+          display: none;
+     }
+     .sub-menu{
+          position: static;
+          background-color: #393939;
+
+     }
+     .menu.open {
+          display: block;
+     }
+}
+
+
