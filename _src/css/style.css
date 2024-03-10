@@ -4,12 +4,60 @@ body {
      padding: 4rem;
 }
 
+
+
+
+
+
 .zelda-Div img {
      width: 30%;
      height: 10%;   
      padding-top: 2rem;
      padding-left: 2rem;
 }
+.zelda-Div{
+     display: flex;
+}
+.starsAndText p {
+     padding-top: 2rem;
+     padding-left: 2rem;
+}
+.starsAndText h1 {
+     padding-top: 2rem;
+     padding-left: 2rem;
+}
+.stars {
+     display: flex;
+     width: 20%;
+}
+.starsText {
+     padding-left: 2rem;
+     display: flex;
+     align-items: center;
+     color:#bf1313;
+     font-size: 2rem;
+     font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mario-Div img {
      width: 30%;
      height: 10%;
