@@ -4,21 +4,9 @@ layout: "page.njk"
 hasjs: 1
 ---
 
-# GameCritic
-
-## Video Game Reviews
-
-## Pros!
-
-- fast
-- safe
-- pretty neat
+<h1 class="sub-title">Video Game Reviews</h1>
 
 
-## Cons 
-- weirdly complicated?
-- too many features?
-- dog
 
 <div class="zelda-Div">
      <img src="Images/zelda.jpg" alt="zelda image">
