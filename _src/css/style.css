@@ -9,13 +9,13 @@ body {
 
 
 
-.zelda-Div img {
+.game-Div img {
      width: 30%;
      height: 10%;   
      padding-top: 2rem;
      padding-left: 2rem;
 }
-.zelda-Div{
+.game-Div{
      display: flex;
 }
 .starsAndText p {
