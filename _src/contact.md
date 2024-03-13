@@ -3,6 +3,7 @@ title: Contact
 layout: "page.njk"
 hasjs: 1
 ---
+<div class="contactPage">
 
 # Contact Us
 We are happy to assist you!
@@ -17,3 +18,5 @@ contact us today ferda
 -->
 
 <!-- You cant write markdown inside of html -->
+
+</div>

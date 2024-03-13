@@ -10,9 +10,10 @@ hasjs: 1
 
 
 
+<div class="entirePage">
 
+<h1 class="sub-title">Meet The Team</h1>
 
-# Meet Our Team
 <div class="aboutPage">
 
 <div class="Joe-Div">
@@ -45,7 +46,7 @@ hasjs: 1
    
 
 
-
+</div>
 
 
 

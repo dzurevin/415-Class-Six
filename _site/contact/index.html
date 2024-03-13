@@ -24,7 +24,8 @@
      </nav>
 </header>
           </header>
-          <h1>Contact Us</h1>
+          <div class="contactPage">
+<h1>Contact Us</h1>
 <p>We are happy to assist you!</p>
 <!-- 
 contact us today ferda
@@ -36,24 +37,27 @@ contact us today ferda
 </div>
 -->
 <!-- You cant write markdown inside of html -->
-
+</div>
           
-               <div class="container">
+               
+<div class="container">
   <form>
+    <label for="fname">Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<label for="fname">Name:</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Email:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-<label for="lname">Email:</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="subject">Message:</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-<label for="subject">Message:</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
- <input type="submit" value="Submit">
+    <input type="submit" value="Submit">
 
   </form>
 </div>
+
+
+
           
           
 
