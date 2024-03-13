@@ -100,6 +100,68 @@ body {
 
 
 /* About Page */
+.aboutPage {
+margin: 3em
+
+}
+.aboutPage img{
+height: 30em;
+border-radius: 100%;
+
+
+}
+.aboutPage p{
+     padding-left: 2rem;
+     font-size: 1.3em;
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     line-height: 1.4em;
+}
+.aboutPage h2{
+     margin: 0;
+     padding-left: 2rem;
+     font-size: 2.4em;
+     font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     line-height: 1.4em;
+}
+.Joe-Div{
+     align-items: center;
+     padding-top: 2rem;
+     display: flex;
+}
+
+.Irene-Div{
+     align-items: center;
+     padding-top: 8em;
+     display: flex;
+     padding-left:0;
+}
+.Ray-Div{
+     align-items: center;
+     padding-top: 2rem;
+     display: flex;
+}
+
+.about-Page-Div{
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
