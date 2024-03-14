@@ -48,10 +48,16 @@ hasjs: 1
 
 </div>
 
+</div>
 
 
 
 
-
-
+<div class="footer"> 
+        <h2>Contact</h2>
+        <p>Get in touch!</p>
+        <p>gamecritic@gmail.com</p>
+        <p>(807) 225-2312</p>
+        <p>You can also visit our contact page!</p>
+    </div>
     

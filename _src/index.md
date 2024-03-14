@@ -18,7 +18,7 @@ hasjs: 1
 
 <!-- Zelda -->
 <div class="game-Div">
-     <img src="Images/zelda.jpg" alt="zelda image">
+     <img class="homePageImages" src="Images/zelda.jpg" alt="zelda image">
      <div class="starsAndText">
      <h1>The Legend Of Zelda: Tears Of The Kingdom</h1>
      <div class="starsText">4/5 Stars</div> 
@@ -36,22 +36,12 @@ hasjs: 1
 
 
 
-
-
-
-
-
-
-
-
-
-
 <!-- MARIO -->
 
 <div class="game-Div">
-     <img src="Images/mario.jpg" alt="mario image">
+     <img class="homePageImages" src="Images/mario.jpg" alt="mario image">
      <div class="starsAndText">
-     <h1>The Legend Of Zelda: Tears Of The Kingdom</h1>
+     <h1>Super Mario Odyssey</h1>
      <div class="starsText">5/5 Stars</div> 
           <div class="stars">
                <img src="Images/starred.png" alt="zelda image">  
@@ -66,23 +56,11 @@ hasjs: 1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- SPLATOON -->
 
 
 <div class="game-Div">
-     <img src="Images/splatoontwo.jpg" alt="splatoon image">
+     <img class="homePageImages" src="Images/splatoontwo.jpg" alt="splatoon image">
      <div class="starsAndText">
      <h1>Splatoon 2</h1>
      <div class="starsText">3/5 Stars</div> 
@@ -103,3 +81,12 @@ hasjs: 1
 
 
 </div>
+
+
+<div class="footer"> 
+        <h2>Contact</h2>
+        <p>Get in touch!</p>
+        <p>gamecritic@gmail.com</p>
+        <p>(807) 225-2312</p>
+        <p>You can also visit our contact page!</p>
+    </div>

@@ -6,17 +6,22 @@ body {
 
 /* Home Page Image css */
 
+
+
 .game-Div img {
      width: 30%;
      height: 10%;   
      padding-top: 2rem;
      padding-left: 2rem;
 }
+
 .game-Div{
      display: flex;
      padding-bottom: 4rem;
      
 }
+
+
 .starsAndText p {
      padding-top: 2rem;
      padding-left: 2rem;
@@ -44,7 +49,8 @@ body {
 }
 .sub-title{
      padding-left: 2rem;
-
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 2.5em;
 }
 
 
@@ -58,6 +64,7 @@ body {
      align-items: center;
      padding-right: 7vw;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
      
 }
 
@@ -244,7 +251,17 @@ input[type=text], select, textarea {
 
 
 
-
+   .footer {
+     color: rgb(0, 0, 0);
+     margin-top: 5vh;
+     background-color: #f2f2f2;
+     padding: 3vw 14vw;
+     font-size: 1.3em;
+     outline: 8px solid #bf1313;
+ }
+ .footer h2 {
+     font-size: 2em;
+ }
 
 
 
@@ -259,14 +276,16 @@ input[type=text], select, textarea {
 @media screen and (max-width: 820px) {
      .header {
           padding: 0 4vw;
+          padding-bottom: 2vw;
      }
      .menu-toggle {
           display: block;
      }
      .menu {
+          margin-top: 2.2em;
           position:absolute;
           display: block;
-          background-color: #222222;
+          background-color: #f2f2f2;
           left: 0;
           width: 100%;
           display: none;
@@ -279,6 +298,31 @@ input[type=text], select, textarea {
      .menu.open {
           display: block;
      }
+
+
+   
 }
+
+@media screen and (max-width: 1100px) {
+     .game-Div {
+          display: block;
+     }
+     .game-Div img {
+          width: 80%;
+}
+
+.game-Div img {
+     width: 70%;
+     height: 10%;
+     padding-top: 2rem;
+     padding-left: 2rem;
+}
+.stars{
+     width: 10%;
+}
+
+
+}
+
 
 
